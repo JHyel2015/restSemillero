@@ -4,7 +4,7 @@
 	<groupId>com.clearminds.rjhg</groupId>
 	<artifactId>rest</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>rest Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
@@ -39,6 +39,12 @@
 			<groupId>org.glassfish.jersey.media</groupId>
 			<artifactId>jersey-media-json-jackson</artifactId>
 			<version>2.27</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.clearminds.rjhg</groupId>
+			<artifactId>middleware</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 	<build>
